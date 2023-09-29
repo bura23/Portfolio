@@ -69,7 +69,6 @@ import dynamic from 'next/dynamic';
 import { Fragment, useMemo, useState } from 'react';
 import { media } from 'utils/style';
 import styles from './SmartSparrow.module.css';
-import { Document, Page } from 'react-pdf';
 
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
