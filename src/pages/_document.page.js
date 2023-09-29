@@ -8,7 +8,6 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-
         <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
